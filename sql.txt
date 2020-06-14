@@ -1,0 +1,9 @@
+insert into products(name,price,descreption,img_dir,available,classification) VALUES("j7pro",5000,"it is strong battery phone","
+
+
+
+ <img src="<?php echo $product->imageDir;?>" alt="Card image cap"> 
+    <h4><?php echo  $product->price;?></h4>
+     <p> <?php echo  $product->quantityAvailabel;?></p>
+    <p> <?php echo  $product->description;?></p>   
+    
